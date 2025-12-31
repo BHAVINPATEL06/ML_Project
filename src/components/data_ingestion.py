@@ -34,7 +34,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the Data Ingestion method or component")
         try:
-            df = pd.read_csv('notebook\data\stud.csv')
+            df = pd.read_csv('notebook/data/stud.csv')
             logging.info("Read the dataset as Dataframe")
 
             ## create artifacts folder with train.csv file
