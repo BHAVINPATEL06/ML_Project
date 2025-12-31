@@ -1,7 +1,7 @@
 #  For custom exception handling.
 
 import sys
-import logging
+from logger import logging
 
 def error_message_detail(error,error_detail:sys):
     ## exe_info() from this we are getting all the information regarding the error in which file occurend and line 
